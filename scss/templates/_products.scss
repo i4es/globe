@@ -1,0 +1,132 @@
+/* PAGE PRODUCTS */
+.gc-products-page {
+    padding-bottom: 50px;
+}
+/* RIGHT FORM */
+.gc-right-form {
+    height: 580px;
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: #eee;
+    box-shadow: 14px 11px 12px -2px rgba(0,0,0,.28);
+    margin-bottom: 35px;
+}
+.gc-right-form .wpcf7 {
+    padding: 0 30px;
+}
+.form-logo-box {
+    padding: 30px 0;
+}
+.form-logo-img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.title-form h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.gc-right-wrapp {
+    width: 100%;
+    position: relative;
+}
+.gc-right-form {
+    input {
+        border: 0 solid;
+        background-color: transparent;
+        max-width: 100%;
+        outline: 0;
+    }
+}
+.your-name,
+.your-email,
+.your-message,
+.intl-tel-input input {
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    border-bottom: 1px solid #cccfd8
+}
+.intl-tel-input {
+    width: 100%;
+}
+.right-form-phone {
+    display: block;
+    width: 100% !important;
+}
+.gc-right-form textarea {
+    border: 0 solid;
+    background-color: transparent;
+    resize: none;
+    outline: 0;
+    height: 70px;
+}
+.gc-recap-box {
+    margin-top: 20px;
+}
+.cf7-right-button-wrap {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+.gc-right-form input.wpcf7-form-control.wpcf7-submit {
+    width: 100%;
+    border: 0 solid;
+    background-color: #ff7b31;
+    height: 46px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 0px;
+    transition: .3s ease-in;
+    &:hover,
+    &:focus {
+        border: 1px solid #ff7b31;
+        background-color: transparent;
+        color: #ff7b31;
+    }
+}
+/* RELATED EQUIPMENT */
+.related_ch.autoplay {
+    float: left;
+    display: inline-block;
+    border: 1px solid #ececec;
+    height: 230px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px;
+}
+.third-post {
+    width: 50%;
+    &:last-child {
+        width: 100%;
+    }
+}
+.related_post {
+    width: 100%;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+.related_ch{
+    &__img {
+        color: #5a5a5a;
+        transition: .3s ease-in;
+        &:hover,
+        &:focus {
+           color: #ff7701;
+        }
+        img {
+            height: 160px;
+            width: 100%;
+            object-fit: scale-down;
+            text-align: center;
+        }
+    }
+}

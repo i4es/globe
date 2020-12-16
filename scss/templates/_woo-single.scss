@@ -1,0 +1,19 @@
+.woocommerce-product-gallery {
+  &__image {
+    a {
+      img {
+        max-height: 500px;
+        object-fit: contain;
+      }
+    }
+  }
+  .flex-control-nav {
+    margin: 14px 0 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    li {
+      padding-right: 14px;
+    }
+  }
+}

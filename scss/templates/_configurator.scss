@@ -1,0 +1,23 @@
+.page-template-configurator-6-7 {
+  .gc-breadcrumbs {
+    display: none;
+  }
+  .gc-footer {
+    display: none;
+  }
+}
+
+.conf-left-box {
+  width: calc(((100% - 14% - 2.25rem * 11) / 12) * 8 - -2.25rem * 7 - -7%);
+  position: fixed;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.conf-right-box {
+  right: 7%;
+  width: calc(((100% - 14% - 2.25rem * 11) / 12) * 4 - -2.25rem * 3);
+  padding-bottom: 1.5rem;
+  box-sizing: border-box;
+  position: absolute;
+}
